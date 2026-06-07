@@ -34,9 +34,21 @@
       - En la PBC tampoco me muestra errores de conexión
         - Si quiero cambiar el tamaño y orden de la placa
           - Más rectangular y ahorrar espacio
+         
+- ![pre-amp](./imagenes/circuito-tl072-amp.png)
+- El Amp que tomé de referencia, es el mismo que el de [maincra](https://github.com/disenoUDP/dis8644-2026-1-procesos-2/tree/main/00-proyecto-02/grupo-01)
+  - Con los cambios para hacer más sensible el piezo (R4 y R5)
+  - Eso sí, ahora usando ambos OP-Amps
 
 - ![v2 pcb 2d](./imagenes/caja-galletas-v2-pcb.png)
-  - Tengo que arreglar las vías
-    - Sin querer use el tamaño predeterminado
+  - Tengo que arreglar las vías *(?)*
+    - Sin querer use el tamaño predeterminado, no se si eso vaya a ser un problema
+  - La huella de los 2N5088 y 78L05 tienen uno externo a la biblioteca de KiCad
+    - Los cambié por uno de la biblioteca default en el v3
+      - Además de corregir un alivio termico que no nombraban en los errores pero si era preocupante
 - ![v2 pcb 3d](./imagenes/caja-galletas-v2-pcb-3d.png)
   - Hay espacio vacío que me permite re-ordenar los componentes y achicar el tamaño de la PCB
+ 
+- ## v3
+
+- Arreglos minimos de huellas para que sea más facil de compartir
