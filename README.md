@@ -35,8 +35,8 @@
         - Si quiero cambiar el tamaño y orden de la placa
           - Más rectangular y ahorrar espacio
 
-- ![v2 pcb 2d](./imagenes/caja-galletas-v1-pcb.png)
+- ![v2 pcb 2d](./imagenes/caja-galletas-v2-pcb.png)
   - Tengo que arreglar las vías
     - Sin querer use el tamaño predeterminado
-- ![v2 pcb 3d](./imagenes/caja-galletas-v1-pcb-3d.png)
+- ![v2 pcb 3d](./imagenes/caja-galletas-v2-pcb-3d.png)
   - Hay espacio vacío que me permite re-ordenar los componentes y achicar el tamaño de la PCB
