@@ -23,6 +23,8 @@
 
 -  ## v2
 
+- ### esquematico v2
+
 -  ![v2 esquematico](./imagenes/caja-galletas-v2-sch.png)
 
 -  El esqumatico del PT2399 es el "Boy in Well" con un mod de DIY Guitar Pedals:
@@ -39,6 +41,13 @@
 - El Amp que tomé de referencia, es el mismo que el de [maincra](https://github.com/disenoUDP/dis8644-2026-1-procesos-2/tree/main/00-proyecto-02/grupo-01)
   - Con los cambios para hacer más sensible el piezo (R4 y R5)
   - Eso sí, ahora usando ambos OP-Amps
+ 
+- El efecto "Muff Fuzz" lo saqué de esta pagina:
+  - https://beavisaudio.com/beavisboard/projects/bbp_MuffFuzz.pdf
+ 
+-------------------
+
+- ### pcb v2
 
 - ![v2 pcb 2d](./imagenes/caja-galletas-v2-pcb.png)
   - Tengo que arreglar las vías *(?)*
