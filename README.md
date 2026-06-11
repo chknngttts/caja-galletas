@@ -2,7 +2,7 @@
 
 > *Caja de ruido en proceso*
 >
-> *Todas las versiones de KiCad están en carpetas*
+> *Todas las versiones de KiCad están en sus carpetas propias*
 
 -------------------
 
@@ -10,13 +10,18 @@
 
 > *La idea es tener esta PCB en una caja de galletas*
 > 
+> *La placa en sí ya tiene efectos integrados como reverb y un Muff Fuzz*
+> 
 > *La caja se conecta a un parlante o pc con Jack 3.5mm*
+> 
+> *Y como alimentación también tiene un Jack 3.5mm*
+> 
 
   - Dentro de la caja hay:
     - Regulador de voltaje **``(9V -----> 5V)``**
       - VBUS
     - Reverb **``(PT2399)``**
-      - Switch para tener feedback
+      - *Switch para tener feedback*
     - Pre-Amp / Amp **``(TL072)``**
     - Muff Fuzz **``(2N5088)``**
    
@@ -58,6 +63,28 @@
 - ![v2 pcb 3d](./imagenes/caja-galletas-v2-pcb-3d.png)
   - Hay espacio vacío que me permite re-ordenar los componentes y achicar el tamaño de la PCB
  
+-------------------
+ 
 - ## v3
 
 - Arreglos minimos de huellas para que sea más facil de compartir
+
+-------------------
+
+- ## v4
+
+- ### esquematico v4
+  - igual que v2 pero con Jack 3.5mm a cambio del Terminal Block
+ 
+-------------------
+ 
+- ### pcb v4
+
+- ![v4 pcb 2d](./imagenes/caja-galletas-v4-pcb.png)
+  - Cambié las vías al tamaño que nos recomendaros en taller
+    - Optimicé la posición de los componentes para usar el espacio vacío
+  - Añadí Mounting Holes M3
+  - Al ver los errores solo mostraba problemas de la serigrafía
+    - Nada con alivios termicos
+- ![v4 pcb 3d](./imagenes/pcb-2-1.png)
+- ![v4 pcb 3d](./imagenes/pcb-2-2.png)
