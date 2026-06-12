@@ -6,7 +6,7 @@
 
 -------------------
 
-- ### Features
+- ### Ideas y specs
 
 > *La idea es tener esta PCB en una caja de galletas*
 > 
@@ -14,7 +14,7 @@
 > 
 > *La caja se conecta a un parlante o pc con Jack 3.5mm*
 > 
-> *Y como alimentación también tiene un Jack 3.5mm*
+> *Y como alimentación también cuenta con un Jack 3.5mm*
 > 
 
   - Dentro de la caja hay:
@@ -26,7 +26,7 @@
     - Muff Fuzz **``(2N5088)``**
    
 
--  ## v2
+-  ## **v2**
 
 - ### esquematico v2
 
@@ -42,13 +42,17 @@
         - Si quiero cambiar el tamaño y orden de la placa
           - Más rectangular y ahorrar espacio
          
-- ![pre-amp](./imagenes/circuito-tl072-amp.png)
-- El Amp que tomé de referencia, es el mismo que el de [maincra](https://github.com/disenoUDP/dis8644-2026-1-procesos-2/tree/main/00-proyecto-02/grupo-01)
-  - Con los cambios para hacer más sensible el piezo (R4 y R5)
-  - Eso sí, ahora usando ambos OP-Amps
- 
-- El efecto "Muff Fuzz" lo saqué de esta pagina:
-  - https://beavisaudio.com/beavisboard/projects/bbp_MuffFuzz.pdf
+-------------------
+- Pre-Amp:         
+  - ![pre-amp](./imagenes/circuito-tl072-amp.png)
+  - El Amp que tomé de referencia, es el mismo que el de [maincra](https://github.com/disenoUDP/dis8644-2026-1-procesos-2/tree/main/00-proyecto-02/grupo-01)
+    - Con los cambios para hacer más sensible el piezo (R4 y R5)
+    - Eso sí, ahora usando ambos OP-Amps
+
+- Muff Fuzz:
+  - ![muff-fuzz](./imagenes/muff-fuzz-1.png)
+  - El efecto "Muff Fuzz" lo saqué de esta pagina:
+    - https://beavisaudio.com/beavisboard/projects/bbp_MuffFuzz.pdf
  
 -------------------
 
@@ -65,16 +69,15 @@
  
 -------------------
  
-- ## v3
-
-- Arreglos minimos de huellas para que sea más facil de compartir
+- #### *v3 fueron arreglos minimos de huellas*
 
 -------------------
 
-- ## v4
+- ## **v4**
 
 - ### esquematico v4
-  - igual que v2 pero con Jack 3.5mm a cambio del Terminal Block
+  - ![v4 esquematico](./imagenes/caja-galletas-v4-sch.png)
+    - igual que v2 pero con Jack 3.5mm a cambio del Terminal Block
  
 -------------------
  
@@ -88,3 +91,4 @@
     - Nada con alivios termicos
 - ![v4 pcb 3d](./imagenes/pcb-2-1.png)
 - ![v4 pcb 3d](./imagenes/pcb-2-2.png)
+  - Prefiero el color negro a rosado/morado
